@@ -1,0 +1,22 @@
+{
+    "name": "digitalprofile/job-importer",
+    "description": "A Library for scraping job details from Job Sites",
+    "type": "library",
+    "require": {
+        "fabpot/goutte": "^3.2"
+    },
+    "homepage": "https://github.com/digitalprofile/job-importer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KaniRobinson",
+            "email": "kani@digitalprofile.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JobImporter\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
